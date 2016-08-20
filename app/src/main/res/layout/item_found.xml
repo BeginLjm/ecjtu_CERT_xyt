@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.mcdull.cert.fragment.FoundFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="最新" />
+
+            <TextView
+                android:id="@+id/tv_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="更多>>" />
+
+            <TextView
+                android:id="@+id/type_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textColor="#00121234" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_found_item1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:background="#448afb"
+            android:orientation="vertical">
+
+
+            <com.loopj.android.image.SmartImageView
+                android:id="@+id/siv_item1_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_item1_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="123"
+                android:textColor="#00121234" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#a0000000"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv_item1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="捡到钱包一个"
+                    android:textColor="#fff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_item1_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="今天 14：40"
+                    android:textColor="#fff"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/ll_found_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="#50e3c2"
+                android:orientation="vertical">
+
+
+                <com.loopj.android.image.SmartImageView
+                    android:id="@+id/siv_item2_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_item2_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="123"
+                    android:textColor="#00121234" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#a0000000"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_item2_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="捡到钱包一个"
+                        android:textColor="#fff"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="100dp"
+                android:background="#000000" />
+
+            <RelativeLayout
+                android:id="@+id/ll_found_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="#f5a828"
+                android:orientation="vertical">
+
+
+                <com.loopj.android.image.SmartImageView
+                    android:id="@+id/siv_item3_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:id="@+id/tv_item3_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="123"
+                    android:textColor="#00121234" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#a0000000"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_item3_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="捡到钱包一个"
+                        android:textColor="#fff"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
